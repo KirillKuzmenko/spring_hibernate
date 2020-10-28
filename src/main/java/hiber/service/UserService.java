@@ -10,4 +10,5 @@ public interface UserService {
     void add(Car car);
     List<User> listUsers();
     List<Car> listCars();
+    User findUserbyCar(String model, int series);
 }
