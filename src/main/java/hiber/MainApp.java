@@ -20,7 +20,6 @@ public class MainApp {
          Car car = new Car("Model" + i, 100 + i);
          User user = new User("User" + i, "Lastname" + i, "user" + i + "@mail.ru");
          user.setCar(car);
-         car.setUser(user);
          userService.add(user);
       }
 
